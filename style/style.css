@@ -1,0 +1,75 @@
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: solid green; */
+}
+
+#login-btn, #user-btn {
+    border-radius: 5px;
+    margin: 0 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#msg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0;
+    border: solid whitesmoke;
+    padding: 50px;
+}
+
+#pay-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ACBABF;
+    margin-top: 100px;
+    width: 30%;
+    height: 60vh;
+    border-radius: 15px;
+}
+
+#submit-btn {
+    margin: 25px 60px;
+}
+
+#pay-box.noLogin {
+    display: none;
+}
+
+#box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ACBABF;
+}
+
+
+#pay-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: solid red; */
+    padding: 20px;
+}
+
+#mobile-btn, #bank-btn, #self-btn {
+    cursor: pointer;
+}
+
+h1, label, input {
+    display: block;
+}
+
+label, #mobile-btn, #bank-btn, #self-btn {
+    margin: 10px;
+}
+
+
