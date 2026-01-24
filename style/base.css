@@ -1,0 +1,39 @@
+:root {
+    --color-navbar: #ACBABF;
+    --color-navbar-btn: #F8FAFC;
+    --color-profile-img-container: #373737;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    border: solid black;
+    background-color: var(--color-navbar);
+    width: 99%;
+    padding: 10px;
+}
+
+#login-btn, #user-btn {
+    border-radius: 5px;
+    margin: 0 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.navbar-options {
+    text-decoration: none !important;
+    color: black;
+    border: solid black !important;
+    background-color: var(--color-navbar-btn);
+    border-radius: 5px;
+    margin: 0 20px;
+    padding: 10px;
+}
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPI</title>
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="navbar-container">
+            <nav id="navbar">
+                <a href="index.html" class="navbar-options">Home</a>
+                <a href="about.html" class="navbar-options">About</a>
+                <a href="contact.html" class="navbar-options">Contact Us</a>
+                <button id="login-btn" onclick="signUp()">Login/SignUp</button>
+                <button id="user-btn"></button>
+            </nav>
+        </div>
+        <div id="msg-container">
+            <h1>Please Login First</h1>
+        </div>
+        <div id="pay-box">
+            <h1 id="title-name">Pay UPI</h1>
+            <div id="box-container">
+                <form id="pay-form" onclick="return false">
+                    <label for="">Pay Using</label>
+                    <button id="mobile-btn">Mobile Number</button>
+                    <button id="bank-btn">Bank Account</button>
+                    <button id="self-btn">Self Transfer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
