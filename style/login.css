@@ -1,0 +1,51 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid red;
+    border-radius: 15px;
+    margin-top: 150px;
+    padding: 20px;
+}
+
+#btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    margin-top: 20px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 10px;
+    width: 200px;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+}
+
+input.error-border {
+    border:2px solid red;
+}
+
+button {
+    margin: 10px 0px;
+    padding: 8px 5px;
+    border-radius: 10px;
+    width: 100px;
+}
