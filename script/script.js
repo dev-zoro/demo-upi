@@ -48,7 +48,7 @@ function wireOptionButtons() {
 }
 
 function signUp() {
-	window.location.href = "./html/signUp.html";
+	window.location.href = "../html/signUp.html";
 }
 
 userBtn.addEventListener("click", () => {
