@@ -1,0 +1,9 @@
+#user-edit-mode {
+    display: none;
+    padding: 20px;
+}
+
+#edit-btn, #save-btn {
+    border-radius: 5px;
+    padding: 5px 15px;
+}
