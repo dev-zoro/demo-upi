@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../style/signup.css">
+</head>
+<body>
+    <div id="container">
+        <div id="signup-box">
+            <h2>Sign Up</h2>
+            <form onclick="return false">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                <small class="error"></small>
+
+                <label for="number">Mobile Number:</label>
+                <input type="number" name="number" id="number">
+                <small class="error"></small>
+
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password">
+                <small class="error"></small>
+
+                <label for="confirmpassword">Confirm Password:</label>
+                <input type="password" name="confirmpassword" id="confirm-password">
+                <small class="error"></small>
+
+                <div id="btn"><button id="signup-btn" onclick="userInfo()">Sign Up</button></div>
+            </form>
+        </div>
+    </div>
+
+    <script src="../script/signup.js"></script>
+</body>
+</html>

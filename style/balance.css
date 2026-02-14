@@ -1,0 +1,75 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: solid green; */
+}
+
+#check-box, #bank-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ACBABF;
+    margin-top: 100px;
+    width: 25%;
+    height: 60vh;
+    border-radius: 15px;
+}
+
+#bank-table {
+    margin-bottom: 50px;
+}
+
+thead, tbody, th, td{
+    padding: 10px;
+}
+
+#check-bal {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+div.invisible {
+    display: none;
+}
+
+#box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ACBABF;
+}
+
+label, input {
+    display: block;
+    margin: 10px 0;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input.error-border {
+    border: solid red;
+}
+
+th {
+    border: solid black;
+}
+
+#check-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+#check-btn {
+    padding: 5px;
+    border-radius: 5px;
+    /* margin: 20px 45px; */
+}
+

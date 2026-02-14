@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../style/login.css">
+</head>
+<body>
+    <div id="container">
+        <div id="login-div">
+            <h2>Login</h2>
+            <form id="login-form" onclick="return false">
+                <label for="number">Mobile Number:</label>
+                <input type="number" id="number">
+                <small class="error"></small>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password">
+                <small class="error"></small>
+
+                <div id="btn-box">
+                    <button id="login-btn">
+                        Login
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="../script/login.js"></script>
+</body>
+</html>

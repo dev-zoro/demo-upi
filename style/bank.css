@@ -1,0 +1,10 @@
+#bank-edit-mode {
+    display: none;
+    padding: 20px;
+}
+
+#add-btn, #save-btn {
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
