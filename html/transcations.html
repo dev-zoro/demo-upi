@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="../style/base.css">
+    <link rel="stylesheet" href="../style/profileBase.css">
+    <link rel="stylesheet" href="../style/profile.css">
+    <link rel="stylesheet" href="../style/transcations.css">
+</head>
+<body>
+    
+    <div id="container">
+        <div id="navbar-container">
+            <nav id="navbar">
+                <a href="../index.html" class="navbar-options">Home</a>
+                <a href="about.html" class="navbar-options">About</a>
+                <a href="contact.html" class="navbar-options">Contact Us</a>
+                <button id="login-btn" onclick="signUp()">Login/SignUp</button>
+                <button id="user-btn"></button>
+            </nav>
+        </div>
+        <div id="user-profile">
+            <div id="user-img-container">
+                <div id="user-img-div">
+                    <img src="https://cdn.pixabay.com/photo/2017/11/10/05/48/user-2935527_640.png" alt="user image">
+                </div>
+                <div id="option-div">
+                    <button class="profile-btn">Information</button>
+                    <button class="profile-btn">Bank Account</button>
+                    <button class="profile-btn">Transcations</button>
+                    <button class="profile-btn">Logout</button>
+                </div>
+            </div>
+            <div id="user-info-container">
+                <table id="user-table">
+                    <thead>
+                        <tr>
+                            <th colspan="3">Transcations History</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                        <tr>
+                            <td>Receiver</td>
+                            <td>Amount</td>
+                            <td>Mode</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div id="next-div">
+                    <button id="back-btn"><</button>
+                    <button id="forward-btn">></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../script/transcations.js"></script>
+</body>
+</html>

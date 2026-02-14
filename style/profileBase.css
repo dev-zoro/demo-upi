@@ -1,0 +1,98 @@
+:root {
+    --color-profile-img-container: #373737;
+    --color-profile-btn: whitesmoke;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#user-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+#user-img-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: var(--color-profile-img-container);
+    border-radius: 5px;
+    width: 150px;
+    height: 55vh;
+}
+
+#user-img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid black; */
+    width: 100%;
+    margin: 30px 0 15px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+#option-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profile-btn {
+    display: block;
+    cursor: pointer;
+    margin: 15px 0;
+    border: none;
+    color: var(--color-profile-btn);
+    background-color: var(--color-profile-img-container);
+}
+
+#user-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 55vh;
+    /* border: solid greenyellow; */
+    background-color: var(--color-profile-btn);
+    border-radius: 5px;
+}
+
+table, td, th {
+    padding: 10px;
+}
+
+th {
+    border: solid black;
+    width: 100%;
+}
+
+input.error-border {
+    border: 2px solid red;
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    padding: 10px 0;
+}
+
+input {
+    padding: 5px;
+    border-radius: 10px;
+}

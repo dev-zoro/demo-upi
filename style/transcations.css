@@ -1,0 +1,12 @@
+#next-div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* border: solid red; */
+    width: 100%;
+}
+
+#forward-btn, #back-btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
