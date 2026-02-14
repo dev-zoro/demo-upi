@@ -1,0 +1,62 @@
+#pay-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    /* height: 50vh; */
+    margin: 100px 0;
+}
+
+#box-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    height: 65vh;
+    border-radius: 20px;
+    background-color: #ACBABF;
+}
+
+h2 {
+    margin: 45px 0 15px;
+}
+
+label, input, select {
+    display: block;
+}
+
+label {
+    margin: 20px 0 10px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    border: solid gray;
+}
+
+select {
+    padding: 5px;
+    border-radius: 5px;
+    border: solid gray;
+    margin-bottom: 10px;
+}
+
+input.error-border {
+    border: solid red;
+}
+
+select {
+    width: 175px;
+}
+
+#send-btn {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 20px 0 10px 45px;
+    /* color: whitesmoke; */
+    background-color: #F8FAFC; 
+}
